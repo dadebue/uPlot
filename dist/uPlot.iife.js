@@ -3375,7 +3375,7 @@ var uPlot = (function () {
 
 			fire("setData");
 
-			if (_resetScales !== false) {
+			if (_resetScales === true) {
 				let xsc = scaleX;
 
 				if (xsc.auto(self, viaAutoScaleX))
